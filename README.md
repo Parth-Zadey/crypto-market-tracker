@@ -65,7 +65,7 @@ crypto-market-tracker/
 **Parth Zadey**
 
 - GitHub: [Parth-Zadey](https://github.com/Parth-Zadey)
-- LinkedIn: [Connect with me](https://www.linkedin.com/)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/parth-zadey-238306290/)
 
 ---
 
