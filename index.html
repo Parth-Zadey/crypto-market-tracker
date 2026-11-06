@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Market Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="controls">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search By Name or Symbol"
+            >
+
+            <button id="sortMarketCap">
+                Sort By Mkt Cap
+            </button>
+
+            <button id="sortPercentage">
+                Sort by percentage
+            </button>
+
+        </section>
+
+        <p id="loadingMessage">Loading cryptocurrency data...</p>
+
+        <p id="errorMessage"></p>
+
+        <div class="table-container">
+
+            <table>
+                <tbody id="cryptoTableBody">
+                    <!-- Cryptocurrency data will appear here -->
+                </tbody>
+            </table>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
